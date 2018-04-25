@@ -1,0 +1,130 @@
+:root{
+	--negro: #29272a;
+	--naranja: #f69c21;
+	--blanco: #FFFFFF;
+	--negroverdadero: #000;
+	
+	
+}
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: var(--negro);
+	background-image: url("images/pattern.jpg");
+	font-family: arial, sans-seriff;
+	
+	
+	
+	
+	}
+.cabecera{
+	/* background-color: red; */
+	
+	display: flex;
+	/* separa horizontal */
+	justify-content: space-between;
+	/* centra vertical */
+	align-items: center;
+	
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	margin-bottom: 12px;
+	
+	
+	
+	
+	
+	
+}
+h1{
+	color: var(--naranja);
+	
+	
+	
+}
+.contenedor{
+	background-color: var(--blanco);
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+/* ------------------------------
+
+seccion botonera
+---------------------------------
+ */
+
+.botonera{
+	background-color: var(--naranja);
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	
+	
+}
+.botonera-lista{
+	
+	background-color:green;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	
+	
+	
+	
+}
+.botonera a{
+	background-color: var(--naranja);
+	display: block;
+	color: white;
+	text-align: center;
+
+	
+	
+	
+	
+}
+.botonera a:hover{
+	background-color: var(--negroverdadero);
+	
+	
+	
+	
+}
+.botonera li{
+	flex-grow: 1;
+	
+	
+	
+	
+}
+.botonera-lista a{
+	border-right: 1px solid var(--blanco);
+	font-weight: bold;
+
+	
+	
+	
+}
+a.sin-borde{
+	border-right: none;
+}
